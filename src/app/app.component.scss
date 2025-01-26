@@ -1,0 +1,33 @@
+.main-container {
+  min-height: 100vh;
+  background-color: rgba(248, 248, 248, 0.5);
+
+  .pri-container {
+    padding: 1rem;
+    margin-left: 20rem;
+
+    .nav-container {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      background: transparent;
+      color: white;
+      box-shadow: none;
+      border-radius: 1rem;
+      transition: all 0.3s;
+      padding: 0 1rem;
+    }
+
+    .content-container {
+      margin-top: 3rem;
+    }
+
+    footer {
+      padding: 0.5rem;
+
+      .footer-container {
+        color: rgba(72, 85, 99, 0.75);
+      }
+    }
+  }
+}
