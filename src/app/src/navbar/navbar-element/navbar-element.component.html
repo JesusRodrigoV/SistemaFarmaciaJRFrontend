@@ -1,1 +1,11 @@
-<p>navbar-element works!</p>
+<a aria-current="page" [routerLink]="opcion.route">
+  <button
+    routerLinkActive="custom-button-active"
+    class="custom-button"
+    type="button"
+  >
+    <i [class]="iconClasses"></i>
+    <i class="bx bxs-sushi"></i>
+    <p class="custom-text">{{ opcion.name }}</p>
+  </button>
+</a>

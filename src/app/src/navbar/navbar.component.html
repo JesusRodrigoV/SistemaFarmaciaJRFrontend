@@ -1,1 +1,12 @@
-<p>navbar works!</p>
+<aside class="aside-container">
+  <div class="title-container">
+    <a class="title-link" routerLink="/gestion/inventario">
+      <h6 class="title-text">Farmacia</h6>
+    </a>
+  </div>
+  <div class="links-container">
+    @for (option of options; track option.name) {
+      <app-navbar-element [datos]="option"></app-navbar-element>
+    }
+  </div>
+</aside>

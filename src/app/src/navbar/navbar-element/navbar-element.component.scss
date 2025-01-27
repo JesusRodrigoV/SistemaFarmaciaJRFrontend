@@ -1,0 +1,58 @@
+i {
+  font-size: 20px;
+}
+
+.custom-button {
+  background-image: linear-gradient(
+    to top right,
+    #e53e3e,
+    #ed8936
+  ); /* bg-gradient-to-tr from-red-600 to-orange-400 */
+  box-shadow:
+    0 4px 6px -1px rgba(229, 62, 62, 0.2),
+    0 2px 4px -1px rgba(237, 137, 54, 0.2); /* shadow-md shadow-red-500/20 */
+  transition: all 0.2s; /* transition-all */
+  opacity: 1; /* active:opacity-[0.85] (usaremos un selector para cambiar esto) */
+  font-family: sans-serif; /* font-sans */
+  font-weight: bold; /* font-bold */
+  text-align: center; /* center */
+  font-size: 0.75rem; /* text-xs */
+  padding: 0.75rem 1rem; /* py-3 px-4 */
+  border-radius: 0.5rem; /* rounded-lg */
+  color: #ffffff; /* text-white */
+  width: 100%; /* w-full */
+  display: flex; /* flex */
+  align-items: center; /* items-center */
+  gap: 1rem; /* gap-4 */
+  text-transform: capitalize; /* capitalize */
+}
+
+.custom-button:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* hover:bg-white/10 */
+  box-shadow:
+    0 10px 15px -3px rgba(237, 137, 54, 0.4),
+    0 4px 6px -2px rgba(237, 137, 54, 0.4); /* hover:shadow-orange-500/40 hover:shadow-lg */
+}
+
+.custom-button:active {
+  background-color: rgba(255, 255, 255, 0.3); /* active:bg-white/30 */
+  opacity: 0.85; /* active:opacity-[0.85] */
+}
+
+.custom-button:disabled {
+  opacity: 0.5; /* disabled:opacity-50 */
+  box-shadow: none; /* disabled:shadow-none */
+  pointer-events: none; /* disabled:pointer-events-none */
+}
+
+.custom-text {
+  display: block; /* block */
+  font-family: sans-serif; /* font-sans */
+  font-size: 1rem; /* text-base */
+  line-height: 1.5; /* leading-relaxed */
+  color: inherit; /* text-inherit */
+  font-weight: 500; /* font-medium */
+  text-transform: capitalize; /* capitalize */
+  -webkit-font-smoothing: antialiased; /* antialiased */
+  -moz-osx-font-smoothing: grayscale; /* equivalent to antialiased in Tailwind */
+}
