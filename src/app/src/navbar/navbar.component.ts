@@ -19,13 +19,33 @@ export class NavbarComponent {
 		},
 		{
 			name: "Gestion Clientes",
-			route: "/gestion/clientes",
-			icon: " bxs-user-detail",
+			route: "/gestion/cliente",
+			icon: "bxs-user-detail",
+		},
+		{
+			name: "Gestion Categoria",
+			route: "/gestion/categoria",
+			icon: "bx-purchase-tag",
 		},
 		{
 			name: "Gestion Laboratorio",
-			route: "",
-			icon: "",
+			route: "/gestion/laboratorio",
+			icon: "bx-test-tube",
+		},
+		{
+			name: "Gestion de Ventas",
+			route: "/gestion/venta",
+			icon: "bx-cart-alt",
+		},
+		{
+			name: "Reportes",
+			route: "/gestion/reporte",
+			icon: "bxs-bar-chart-alt-2",
+		},
+		{
+			name: "Gestion Usuario",
+			route: "/gestion/usuario",
+			icon: "bxs-user-plus",
 		},
 	];
 }
