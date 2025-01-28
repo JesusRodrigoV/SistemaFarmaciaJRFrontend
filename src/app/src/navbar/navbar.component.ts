@@ -22,5 +22,10 @@ export class NavbarComponent {
 			route: "/gestion/clientes",
 			icon: " bxs-user-detail",
 		},
+		{
+			name: "Gestion Laboratorio",
+			route: "",
+			icon: "",
+		},
 	];
 }
