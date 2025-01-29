@@ -1,7 +1,6 @@
 i {
   font-size: 20px;
 }
-
 .custom-button {
   background-image: linear-gradient(
     to top right,
@@ -17,7 +16,9 @@ i {
   font-weight: bold; /* font-bold */
   text-align: center; /* center */
   font-size: 0.75rem; /* text-xs */
-  padding: 0.75rem 1rem; /* py-3 px-4 */
+  margin-top: 10px;
+  margin-botom: 15px;
+  padding: 2px 4px 2px 20px;
   border-radius: 0.5rem; /* rounded-lg */
   color: #ffffff; /* text-white */
   width: 100%; /* w-full */
@@ -53,6 +54,7 @@ i {
   color: inherit; /* text-inherit */
   font-weight: 500; /* font-medium */
   text-transform: capitalize; /* capitalize */
+  text-decoration: none;
   -webkit-font-smoothing: antialiased; /* antialiased */
   -moz-osx-font-smoothing: grayscale; /* equivalent to antialiased in Tailwind */
 }
