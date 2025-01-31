@@ -5,10 +5,11 @@
   .pri-container {
     padding: 1rem;
     margin-left: 20rem;
+    display: flex;
 
     .nav-container {
       display: block;
-      width: 100%;
+      width: 50%;
       max-width: 100%;
       background: transparent;
       color: white;
@@ -19,6 +20,9 @@
     }
 
     .content-container {
+      width: 80%;
+      border: solid 1px black;
+      display: flex;
       margin-top: 3rem;
     }
 
